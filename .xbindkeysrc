@@ -1,0 +1,25 @@
+#!/bin/sh
+# Use XF86AudioMute to mute volume
+"${HOME}/.local/bin/volume.sh mute"
+   XF86AudioMute
+
+# Use XF86AudioRaiseVolume to raise volume
+"${HOME}/.local/bin/volume.sh raise"
+   XF86AudioRaiseVolume
+
+# Use XF86AudioLowerVolume to lower volume
+"${HOME}/.local/bin/volume.sh lower"
+   XF86AudioLowerVolume
+
+# Use XF86AudioMicMute
+"${HOME}/.local/bin/volume.sh mic"
+   XF86AudioMicMute
+
+# Use XF86Launch1 to switch display
+"${HOME}/.local/bin/display.sh"
+   XF86Launch1
+
+# Use fn and f2 to toggle screen lock 
+"slock"
+    XF86ScreenSaver
+
