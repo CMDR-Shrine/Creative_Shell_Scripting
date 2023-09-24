@@ -14,3 +14,7 @@ This script enables the use of volume up and down, mute mic, mute audio. Combine
 
 # ytdl.sh
 This script automates downloading an entire youtube channels videos. when run it will ask for the URL and the file location. In fact this can be used for things like odysee, soundcould in the same way! make sure to install yt-dlp first!
+
+
+# .xbindkeysrc
+This is an auto genreated config file for the xbindkeys program (in home dir). This is what i use to map button presses to run scripts such as volume or display switching!
