@@ -1,4 +1,5 @@
-# To enable battery conservation mode 
+# ADD ME TO .bashrc for ease of use, then run source .bashrc 
+# To enable battery conservation mode, type in terminal
 # setcharging 1
 
 # To disable it

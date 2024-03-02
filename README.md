@@ -15,7 +15,7 @@ This script enables the use of volume up and down, mute mic, mute audio. Combine
 # ytdl.sh
 This script automates downloading an entire youtube channels videos. when run it will ask for the URL and the file location. In fact this can be used for things like odysee, soundcould in the same way! make sure to install yt-dlp first!
 
-# setcharge.sh
+# setcharge
 This script allows legion laptop users to enable or disable conservation mode for the battery (limiting to 60%) this preserves battery health if laptop is plugged in all the time. Add it to your bashrc file and either pass 'setcharge 0/1' to togge on or of.
 # Port.sh
 This script makes using ufw very user friendly, allowing you to block ip adresses, allow/block ports and see and overview of your firewall settings. This is very handy when setting up a server or when in the battlefield of damage controll.
