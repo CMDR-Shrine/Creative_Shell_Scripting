@@ -1,24 +1,38 @@
-# Creative_Shell_Scripting
-I use arch linux on an old thinkpad. I use DWM and have a few creative scripts to aid my usage!
+**Creative_Shell_Scripting Repository**
 
-# Display.sh
-this is a hacky work around to switch diplays depending on what is connected to the laptop. When conected to DP-1 the script will switch to that monitor and disable the laptop monitor. When DP-1 is removed, the script can be run once more to enable the laptop display. I combine this with the program 'Xbindkeys' to map this script to run when the think vantage button is pressed on my thinkpad
+**Description:**
+This repository contains a collection of creative shell scripts developed by CMDR-Shrine. These scripts are designed to enhance CMDR-Shrine's experience while using Arch Linux on an old ThinkPad, specifically with the DWM window manager. They include various utilities and tools to automate tasks and improve workflow.
 
-I also run newlook.sh as well to ensure the wallpaper automatically adjusts as well.
+---
 
-# Newlook.sh
-This script selects a random wallpaper from my selected direcotory and formats it to be used for my wallpaper. This then uses a python based tool to generate colours from the wallpaper which then theme the terminal and DWM statusbar! I run this at startup automatcally in my .zsh file to get a new wallpaer and theme each time i log in.
+### Repository Contents:
 
-# Volume.sh
-This script enables the use of volume up and down, mute mic, mute audio. Combine this wil xbind keys to map the buttons to the script commands
+1. **display.sh**
+   - *Description*: A script to switch displays depending on the connected monitor. It disables the laptop monitor when connected to a specific display (e.g., DP-1) and re-enables it when disconnected. Integrated with the `Xbindkeys` program to run when a specific button on the ThinkPad is pressed.
+   - *Last Modified*: Last modified last month.
 
-# ytdl.sh
-This script automates downloading an entire youtube channels videos. when run it will ask for the URL and the file location. In fact this can be used for things like odysee, soundcould in the same way! make sure to install yt-dlp first!
+2. **newlook.sh**
+   - *Description*: Selects a random wallpaper from a specified directory and formats it for use as wallpaper. Additionally, it generates colors from the wallpaper to theme the terminal and DWM status bar. Runs automatically at startup to change wallpaper and theme.
+   - *Last Modified*: Last modified last month.
 
-# setcharge
-This script allows legion laptop users to enable or disable conservation mode for the battery (limiting to 60%) this preserves battery health if laptop is plugged in all the time. Add it to your bashrc file and either pass 'setcharge 0/1' to togge on or of.
-# Port.sh
-This script makes using ufw very user friendly, allowing you to block ip adresses, allow/block ports and see and overview of your firewall settings. This is very handy when setting up a server or when in the battlefield of damage controll.
+3. **volume.sh**
+   - *Description*: Enables volume control functionalities such as volume up, volume down, mute microphone, and mute audio. Designed to be combined with `Xbindkeys` to map buttons to script commands.
+   - *Last Modified*: Last modified 2 months ago.
 
-# .xbindkeysrc
-This is an auto genreated config file for the xbindkeys program (in home dir). This is what i use to map button presses to run scripts such as volume or display switching!
+4. **ytdl.sh**
+   - *Description*: Automates downloading videos from entire YouTube channels. Also supports other platforms like Odysee and SoundCloud. Requires `yt-dlp` to be installed.
+   - *Last Modified*: Last modified 2 months ago.
+
+5. **setcharge**
+   - *Description*: Allows Legion laptop users to enable or disable conservation mode for the battery (limiting to 60%). Preserves battery health if the laptop is plugged in all the time. Can be added to the `.bashrc` file and toggled on or off by passing `setcharge 0/1`.
+   - *Last Modified*: Last modified last month.
+
+6. **port.sh**
+   - *Description*: Simplifies usage of `ufw` (Uncomplicated Firewall) by providing a user-friendly interface to block IP addresses, allow/block ports, and view firewall settings. Useful for server setup and network management.
+   - *Last Modified*: Last modified 2 months ago.
+
+7. **.xbindkeysrc**
+   - *Description*: Auto-generated configuration file for `xbindkeys` program. Used to map button presses to execute scripts such as volume control or display switching.
+   - *Last Modified*: Last modified 7 months ago.
+
+---
